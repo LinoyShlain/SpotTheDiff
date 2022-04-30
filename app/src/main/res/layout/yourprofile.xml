@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appp"
+    tools:context=".YourProfileActivity"
+    android:orientation="vertical"
+    android:weightSum="6">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvPlay"
+        android:layout_width="454dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="30dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="@string/tv_yourprofile"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/tvUsername"
+        android:text="@string/tv_username"
+        android:textSize="35sp"
+        android:gravity="left"
+        android:layout_marginLeft="30dp"
+        android:backgroundTint="@color/purple_700"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="15sp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/tvLevel"
+        android:text="@string/tv_level"
+        android:textSize="35sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:textStyle="bold"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/tvBestScore"
+        android:text="@string/tv_bestscore1"
+        android:textSize="35sp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/tvLastScore"
+        android:text="@string/tv_last"
+        android:textSize="35sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="70dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/btPlay"
+        android:layout_width="200dp"
+        android:layout_height="26dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="2"
+        android:height="10dp"
+        android:backgroundTint="#ED6408"
+        android:gravity="center_horizontal"
+        android:paddingTop="30dp"
+        android:shadowColor="#D66B0E"
+        android:text="@string/bt_play"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+
+</LinearLayout>

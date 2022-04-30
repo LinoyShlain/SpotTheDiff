@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="13"
+        tools:context=".level11Activity">
+
+    <Switch
+        android:id="@+id/sMusic"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="end"
+        android:background="#9F96EF"
+        android:text="@string/tv_music"
+        android:textSize="17sp"
+        android:drawableRight="@drawable/ic_baseline_volume_up_24"
+        android:drawableEnd="@drawable/ic_baseline_volume_up_24"
+        android:gravity="end"
+        android:paddingTop="12dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="2dp"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <TextView
+        android:id="@+id/tvFindTheDiff"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#9F96EF"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="10sp"
+        android:text="@string/bt_find"
+        android:textColor="#5C05A8"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:drawableLeftCompat="@drawable/ic_baseline_watch_later_24"
+        app:drawableStartCompat="@drawable/ic_baseline_watch_later_24"
+        android:drawablePadding="20dp"
+        app:drawableTint="@color/purple_700"
+        android:paddingTop="4dp"
+        android:text="@string/tv_timer"
+        android:padding="15dp"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/ivp1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:src="@drawable/turtle"
+        android:contentDescription="@string/iv_photo"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:weightSum="1">
+
+        <RadioGroup
+            android:id="@+id/rbGroup"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="4"
+            tools:ignore="Suspicious0dp">
+
+            <RadioButton
+                android:id="@+id/rbB1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#575010ED"
+                android:text="@string/bt_B1"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/rbB2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="5dp"
+                android:background="#575010ED"
+                android:text="@string/bt_B2"
+                android:layout_weight="1"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/rbB3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:background="#575010ED"
+                android:text="@string/bt_B3"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/rbB4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:background="#575010ED"
+                android:text="@string/bt_B4"
+                android:textSize="24sp" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btNext"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="#DDF8EC7C"
+        android:text="@string/bt_next"
+        android:textColor="#8501D8"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+

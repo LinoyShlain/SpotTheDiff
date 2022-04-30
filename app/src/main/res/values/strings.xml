@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">SpotTheDiff</string>
+    <string name="tv_Welcome">Welcome!</string>
+    <string name="tv_singin">sign in</string>
+    <string name="tv_signin">sign in</string>
+    <string name="bt_LOGIN">LOGIN</string>
+    <string name="tv_signinwith">sign in with</string>
+    <string name="bt_continue">continue</string>
+    <string name="tv_orsigninwith">or sign in with</string>
+    <string name="tv_forgotpass">forgot password?</string>
+    <string name="tv_forgotpassword">forgot password?</string>
+    <string name="item_exitgame">Exit game</string>
+    <string name="item_share">share</string>
+    <string name="item_gameinstructions">game instructions</string>
+    <string name="item_yourprofile">Your profile</string>
+    <string name="bt_forgotpassword">forgot password?</string>
+    <string name="tv_yourprofile">your profile</string>
+    <string name="bt_play">PLAY</string>
+    <string name="preference_file_key">user_data</string>
+    <string name="user_name">name</string>
+    <string name="user_password">" "</string>
+    <string name="user_last_login_date">" "</string>
+    <string name="tv_levels">Levels</string>
+    <string name="bt_level1">level 1</string>
+    <string name="bt_level2">LEVEL 2</string>
+    <string name="bt_level3">LEVEL 3</string>
+    <string name="bt_level4">LEVEL 4</string>
+    <string name="bt_level5">LEVEL 5</string>
+    <string name="tv_LEVELS">LEVELS</string>
+    <string name="tv_level">LEVEL:</string>
+    <string name="tv_best">Best Score</string>
+    <string name="tv_bestscore">Best Score:</string>
+    <string name="tv_last">LAST SCORE:</string>
+    <string name="tv_bestscore1">BEST SCORE:</string>
+    <string name="tv_username">user name:</string>
+    <string name="bt_find">FIND THE DIFFERENCES</string>
+    <string name="bt_b1">eyes</string>
+    <string name="bt_B1">eyes and tongue</string>
+    <string name="bt_B2">hand and leg</string>
+    <string name="bt_B3">Stumach and leg</string>
+    <string name="bt_B4">neck and  turtle shell</string>
+    <string name="s_music">MUSIC</string>
+    <string name="tv_timer">00:00</string>
+    <string name="bt_C1">wings and eye</string>
+    <string name="bt_C2">eyebrows and eye</string>
+    <string name="bt_C3">beak and foot</string>
+    <string name="bt_C4">belly and eye</string>
+    <string name="bt_D4">sunglasses</string>
+    <string name="bt_D3">thumb and eyebrows</string>
+    <string name="bt_D2">tooth and eyebrows</string>
+    <string name="bt_D1">belly and tail</string>
+    <string name="bt_E1">grass and tail</string>
+    <string name="bt_E2">horns and eye</string>
+    <string name="bt_E3">udder and ear</string>
+    <string name="bt_E4">foot and stain</string>
+    <string name="bt_F1">tail and ear</string>
+    <string name="bt_F2">nose and eyebrows</string>
+    <string name="bt_F3">eyes and strip</string>
+    <string name="bt_F4">belly and mustache</string>
+    <string name="bt_next">NEXT</string>
+    <string name="instruction">How to play?</string>
+    <string name="bt_Level1">LEVEL 1 - Land animals</string>
+    <string name="tv_music">MUSIC</string>
+    <string name="et_password">Password</string>
+    <string name="et_username">Username</string>
+    <string name="iv_image">image</string>
+    <string name="iv_photo">photo</string>
+    <string name="Phone">Phone</string>
+    <string name="bt_confirm">CONFIRM</string>
+    <string name="shareMail">Share with your friends</string>
+    <string-array name="num_array">
+        <item>050</item>
+        <item>054</item>
+        <item>052</item>
+        <item>053</item>
+        <item>058</item>
+    </string-array>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="@drawable/apppppp"
+    tools:context=".instructions">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/tvInstructions"
+        android:layout_weight="1"
+        android:text="How to play?"
+        android:textColor="#6F40DF"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="25sp"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="80dp">
+
+        <TextView
+            android:id="@+id/tvInstruction"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="The player has to select one of the 4 buttons that are placed At the bottom of the screen (below the two photos that the player compares between) that he thinks tells the right differences between the 2 photos.
+The player needs to finish choosing a button before the allotted time that is shown in the timer at the top of the screen.
+After the user selects a button, he needs to press the “NEXT” at the bottom of the screen, to continue to the next photo.
+If the player did not finish the level in the allotted time, he will be transferred to the next photo.
+To win the game the player needs to finish all the levels of the game.
+"
+            android:textSize="30sp"
+            android:textColor="#2B2626"
+            android:gravity="center_horizontal"
+
+            />
+
+    </ScrollView>
+
+
+</LinearLayout>

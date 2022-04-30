@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "85113334326",
+    "project_id": "spotthediff-c3cb3",
+    "storage_bucket": "spotthediff-c3cb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85113334326:android:598b3561aaa000a261c697",
+        "android_client_info": {
+          "package_name": "com.example.spotthediff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85113334326-h26tfn158tn6apl38h2i57k0qk9tktq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbrjyvbnpqNg76o5F5rKzkCykANPKpyrg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85113334326-h26tfn158tn6apl38h2i57k0qk9tktq8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
