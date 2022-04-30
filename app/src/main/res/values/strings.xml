@@ -17,8 +17,8 @@
     <string name="tv_yourprofile">your profile</string>
     <string name="bt_play">PLAY</string>
     <string name="preference_file_key">user_data</string>
-    <string name="user_name">name</string>
-    <string name="user_password">" "</string>
+    <string name="user_name">user_name</string>
+    <string name="user_password">user_password</string>
     <string name="user_last_login_date">" "</string>
     <string name="tv_levels">Levels</string>
     <string name="bt_level1">level 1</string>
